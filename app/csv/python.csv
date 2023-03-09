@@ -1,0 +1,5 @@
+question,answer
+What is a tuple?,A tuple is a collection of objects that are ordered and immutable.
+What is the difference between a list and a tuple?,A list is mutable, meaning you can modify, add, and delete elements. A tuple is immutable, meaning you cannot modify, add, or delete elements.
+What is a decorator?,A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure.
+
