@@ -59,7 +59,7 @@ ul {
 color: black;
 }
 .hero-section button {
-color: #FFFFFF;
+  color: #FFFFFF;
   color: inherit;
   border: 2px solid var(--primary);
   padding: 1em 1.2em;

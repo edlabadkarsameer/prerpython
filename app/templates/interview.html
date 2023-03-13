@@ -3,29 +3,23 @@
 
 {% block content %}
 
-<div>
-  <p>Timer: <span id="timer">00:00</span></p>
-</div>
-<div>
-    {% if user.is_authenticated %}
-    <h1>Hey {{ fname }} </h1>
 
-        {% endif %}
 
-        <h1>Video monitoring</h1>
-        <img src="{% url 'stream_video' %}" />
-</div>
+<div class="hero-section">
   <h1>{{ question }}</h1>
 <form id="answer-form" method="post" action="{% url 'interview' %}">
     {% csrf_token %}
-  <button id="start-btn">Start</button>
-  <button id="stop-btn" disabled>Stop</button>
-  <br>
+
+
   <textarea id="answer-box" name="answer" disabled></textarea>
   <br>
-  <button id="submit-btn" disabled>Submit</button>
-  <button id="next-btn" disabled>Next question</button>
+  <button id="start-btn" class ="but">Speak</button>
+  <button id="stop-btn" class ="but" disabled>Stop</button>
+  <button id="submit-btn" class ="but" disabled>Submit</button>
+  <button id="next-btn" disabled></button>
 </form>
+
+  </div>
   <script>
     const startButton = document.getElementById('start-btn');
     const stopButton = document.getElementById('stop-btn');
@@ -99,6 +93,5 @@ window.onload = function() {
     intervalId = setInterval(updateTime, 1000);
   }
 }
-
   </script>
 {% endblock %}

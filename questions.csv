@@ -4,27 +4,3 @@ What are the differences between a function and a method in Python?,In Python, a
 What is Python?,It is a high-level, interpreted programming language.
 What is PEP8?,It is a style guide for writing Python code.
 What is a tuple?,It is an immutable collection of ordered elements, usually of different data types, enclosed in parentheses.
-What is a set?,It is a collection of unique elements, enclosed in curly braces.
-What is a dictionary?,It is a collection of key-value pairs, enclosed in curly braces and separated by colons.
-What is a lambda function?,It is an anonymous function that can take any number of arguments but can only have one expression.
-What is the difference between a list and a tuple?,A list is mutable while a tuple is immutable.
-What is the difference between a set and a frozenset?,A set is mutable while a frozenset is immutable.
-What is the difference between a dictionary and a list?,A dictionary stores values with keys while a list stores values with indices.
-What is the difference between == and is in Python?,== checks for value equality while is checks for object identity.
-What is the purpose of the __init__ method in a Python class?,It is a constructor method that initializes the object's attributes when the object is created.
-What is the purpose of the __str__ method in a Python class?,It returns a string representation of the object when the object is printed or converted to a string.
-What is the purpose of the __len__ method in a Python class?,It returns the length of the object when the object's length is requested.
-What is the purpose of the __getitem__ method in a Python class?,It returns the value of the specified item in the object when the item is accessed with indexing.
-What is the purpose of the __setitem__ method in a Python class?,It sets the value of the specified item in the object when the item is assigned with indexing.
-What is the purpose of the __delitem__ method in a Python class?,It removes the specified item from the object when the item is deleted with indexing.
-What is the purpose of the __iter__ method in a Python class?,It returns an iterator object that can be used to loop through the object's values.
-What is the purpose of the __next__ method in a Python class?,It returns the next value in the iterator object when the iterator is used to loop through the object's values.
-What is the purpose of the super() function in Python?,It is used to call a method in a parent class from a subclass.
-What is a decorator in Python?,It is a special type of function that can modify or enhance the behavior of another function.
-What is a generator in Python?,It is a function that returns an iterator object that can be used to generate a sequence of values on the fly, instead of generating all values at once.
-What is a context manager in Python?,It is an object that can be used with the "with" statement to manage resources, such as opening and closing files or database connections.
-What is a module in Python?,It is a file containing Python definitions and statements that can be imported and used in other Python programs.
-What is a package in Python?,It is a collection of modules that are organized into a directory hierarchy.
-What is the difference between an abstract class and an interface in Python?,An abstract class can have method implementations while an interface only defines method signatures.
-What is the purpose of the re module in Python?,It is used for working with regular expressions in Python.
-What is a regular expression in Python?,It is a sequence of characters that defines a search pattern for matching text.
